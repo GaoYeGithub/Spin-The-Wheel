@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie Selector</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1><center>Which movie should I watch? 🧐🤔🧐</center></h1>
+    
+    <div id="mainbox" class="mainbox">
+      <div id="box" class="box">
+      </div>
+      
+      <button class="spin" onclick="spinFunction()">SPIN</button>
+    </div>
+    
+    <div>
+      <input id="newOption" type="text" placeholder="Add a movie" />
+      <button onclick="addOption()">Add Option</button>
+    </div>
+    
+    <div id="result" class="result">Result: <span id="movieName">?</span></div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
